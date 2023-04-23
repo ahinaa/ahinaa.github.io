@@ -1,73 +1,77 @@
 body {
-    font-family: 'Playfair Display', serif;
-    margin: 0;
-    padding: 0;
-    color: #333333; /* Font color */
-    background-color: #f9f9f9; /* Light background color */
-  }
-  
-  header {
-    text-align: left;
-    padding: 80px;
-  }
-  
-  h1 {
-    font-size: 36px;
-    margin: 0;
-    letter-spacing: 6px;
-  }
-  
-  main {
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .image-container {
-    width: 60%;
-    max-width: 500px;
-    margin: 50px 0;
-    text-align: center;
-    position: relative;
-  }
-  
-  img {
-    max-width: 100%;
-    width: 100%;
-  }
-  
-  .links-container {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 10px;
-    margin-top: 10px;
-  }
-  
-  a {
-    color: #ffb6c1;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
+  font-family: "Times New Roman", serif;
+  padding: 0;
+  color: #000;
+  background-color: #fff;
+  margin: 0;
+}
 
-  /* Style for mobile screens */
+header {
+  text-align: left;
+  padding: 80px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+main {
+  padding: 20px;
+  padding-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  height: 55vh;
+}
+
+.image-container img {
+  object-fit: contain;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.links-container {
+  text-align: left;
+  font-size: 1.2rem;
+  margin: 0;
+  width: 100%;
+  padding-left: 270px;
+}
+
+.contact-container {
+  text-align: left;
+  font-size: 1.4rem;
+  margin: 0;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 40px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Style for mobile screens */
 @media screen and (max-width: 768px) {
   .image-container {
     margin: 0;
   }
 }
-  
